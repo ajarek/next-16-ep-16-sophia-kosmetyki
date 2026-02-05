@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "name": "Zaawansowana rozjaśniająca maska ​​na dzień",
+        "price": 42.00,
+        "description": "Maska o podwójnym działaniu, która rozjaśnia i chroni skórę przed szkodliwym działaniem promieni UV.",
+        "image": "/images/maska.avif"
+    },
+    {
+        "id": 2,
+        "name": "Żel kojący z aloesem",
+        "price": 28,
+        "description": "Żel chłodzący z dodatkiem czystego aloesu, który natychmiast koi podrażnioną skórę.",
+        "image": "/images/zelAloes.webp"
+    },
+    {
+        "id": 3,
+        "name": "AquaBoost Serum regenerujące na noc",
+        "description": "Intensywne serum na noc, które nawilża i regeneruje skórę.",
+        "price": 50,
+        "image": "/images/aquaBoost.webp"
+    },
+    {
+        "id": 4,
+        "name": "Rozjaśniające serum z witaminą C",
+        "price": 32,
+        "description": "Skuteczna formuła z witaminą C, która niweluje ciemne plamy i nierównomierny koloryt skóry.",
+        "image": "/images/serum.webp"
+    },
+    {
+        "id": 5,
+        "name": "Delikatny środek czyszczący",
+        "description": "Miękki, niepieniący się środek czyszczący, który usuwa zanieczyszczenia, nie wysuszając skóry.",
+        "price": 24,
+        "image": "/images/balsamSen.webp"
+    },
+    {
+        "id": 6,
+        "name": "Żel o szybkim działaniu",
+        "description": "Żel o ukierunkowanym działaniu, który szybko redukuje widoczność cellulitu.",
+        "price": 60,
+        "image": "/images/zelAction.webp"
+    },
+    {
+        "id": 7,
+        "name": "Krem głęboko nawilżający Coconut Bliss",
+        "price": 44,
+        "description": "Bogaty, kremowy krem ​​nawilżający z organicznym olejem kokosowym.",
+        "image": "/images/krem.webp"
+    },
+    {
+        "id": 8,
+        "name": "Nawilżający krem ​​z filtrem SPF Daily Defense",
+        "price": 38,
+        "description": "Lekki, codzienny krem ​​nawilżający z szerokim spektrum ochrony przeciwsłonecznej.",
+        "image": "/images/kremFiltr.avif"
+    },
+    {
+        "id": 9,
+        "name": "Olejek rozświetlający do twarzy",
+        "price": 56,
+        "description": "Luksusowa mieszanka olejków roślinnych, która szybko się wchłania.",
+        "image": "/images/olejek.webp"
+    },
+    {
+        "id": 10,
+        "name": "Płyn do mycia twarzy FreshStart",
+        "price": 30,
+        "description": "Odświeżający, codzienny środek oczyszczający, który delikatnie oczyszcza pory.",
+        "image": "/images/plyn.webp"
+    },
+    {
+        "id": 11,
+        "name": "Delikatny środek czyszczący Intense 150 ml",
+        "price": 36,
+        "description": "Bardzo mocna, a zarazem delikatna formuła w dużym opakowaniu.",
+        "image": "/images/delikatny.avif"
+    },
+    {
+        "id": 12,
+        "name": "Pełny test rozświetlającej maski w płachcie GlowBoost",
+        "price": 48,
+        "description": "Intensywna maska ​​w płachcie nasączona rozświetlającą esencją.",
+        "image": "/images/plynTwarz.webp"
+    },
+    {
+        "id": 13,
+        "name": "Maska na noc Honey Radiance",
+        "price": 54,
+        "description": "Maska na noc do spania wzbogacona miodem manuka, który regeneruje.",
+        "image": "/images/maskaHoney.webp"
+    },
+    {
+        "id": 14,
+        "name": "Rozświetlający krem ​​perłowy do twarzy",
+        "price": 62,
+        "description": "Krem przeciwstarzeniowy z ekstraktem z pereł, który rozświetla i ujędrnia.",
+        "image": "/images/perlowy.webp"
+    },
+    {
+        "id": 15,
+        "name": "Balsam oczyszczający Jaśminowy Sen",
+        "price": 40,
+        "description": "Jedwabisty balsam oczyszczający, który rozpuszcza makijaż i codzienne zanieczyszczenia.",
+        "image": "/images/balsamSen.webp"
+    },
+    {
+        "id": 16,
+        "name": "Żel hialuronowy Moisture Lock",
+        "price": 46,
+        "description": "Lekki żel zawierający wiele mas cząsteczkowych kwasu hialuronowego.",
+        "image": "/images/zel.webp"
+    }
+]

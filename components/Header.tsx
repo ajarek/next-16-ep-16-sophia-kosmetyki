@@ -15,7 +15,11 @@ const Header = () => {
         className='object-cover'
       />
       <div className='absolute inset-0 bg-black opacity-25'></div>
-      <div className='absolute inset-0 flex flex-col items-center justify-center gap-8 '>
+      <div className='absolute inset-0 flex flex-col items-center justify-center gap-8 px-4 '>
+        <div className="flex  items-center gap-4 ">
+          <span>⭐⭐⭐⭐⭐</span>
+          <span className="text-white uppercase">Ponad 102 pięciogwiazdkowe oceny</span>
+        </div>
         <TextType
           text={["Zawsze wysokiej jakości przedmioty"]}
           typingSpeed={75}
@@ -26,14 +30,14 @@ const Header = () => {
           variableSpeedEnabled={false}
           variableSpeedMin={60}
           variableSpeedMax={120}
-          cursorBlinkDuration={0.5}
-          className='text-5xl text-center font-bold text-white'
+          cursorBlinkDuration={1}
+          className='text-6xl text-center font-bold text-white'
         />
         <p className='text-center text-white text-xl'>
          Zabiegi pielęgnacyjne dostosowane do indywidualnych potrzeb, zapewniające najlepsze możliwe rezultaty.
         </p>
         <Link href='/products'>
-          <Button className='h-12'>
+          <Button className='h-16 px-8 text-xl'>
             Poproś o bezpłatną konsultację
           </Button>
         </Link>

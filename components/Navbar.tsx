@@ -7,7 +7,7 @@ import { ShoppingCart } from "lucide-react"
 
 const Navbar = () => {
   return (
-    <nav className='w-full mx-auto fixed h-16 top-0 left-0 right-0 z-50 flex items-center justify-between lg:px-16 px-4 bg-primary/80  backdrop-blur-sm'>
+    <nav className='w-full mx-auto fixed h-16 top-0 left-0 right-0 z-50 flex items-center justify-between lg:px-16 px-4 bg-primary/90 text-white backdrop-blur-sm'>
       <Link href='/' className='flex items-center gap-4'>
         <Image
           src='/images/logo.webp'
