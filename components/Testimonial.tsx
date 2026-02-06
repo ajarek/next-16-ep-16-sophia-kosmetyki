@@ -31,7 +31,7 @@ const testimonials = [
 const Testimonial = () => {
   return (
     <div className='grid grid-cols-1 md:grid-cols-3 gap-8 items-center p-8'>
-      <div className='flex justify-center md:justify-start'>
+      <div className='flex justify-center  '>
         <Image
           src='/images/testimonial-1.webp'
           alt='Testimonial 1'
@@ -63,7 +63,7 @@ const Testimonial = () => {
           </div>
         </div>
       </div>
-      <div className='flex justify-center md:justify-end'>
+      <div className='flex justify-center'>
         <Carousel
           orientation='vertical'
           opts={{

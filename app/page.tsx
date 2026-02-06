@@ -2,6 +2,7 @@ import AdvertisingPanel from "@/components/AdvertisingPanel";
 import Header from "@/components/Header";
 import Products from "@/components/Products";
 import Testimonial from "@/components/Testimonial";
+import Consultations from "@/components/Consultations";
 
 
 export default function Home() {
@@ -11,6 +12,7 @@ return (
         <AdvertisingPanel />
         <Products label="Przeglądaj nasze najnowsze produkty" description="Uzupełnij swoją pielęgnację o słońce i pielęgnację ciała." />
        <Testimonial />
+       <Consultations />
     </main>
 
 )

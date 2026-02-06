@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/sheet"
 import { Menu, ShoppingCart } from "lucide-react"
 import Link from "next/link"
+import { ModeToggle } from "./ModeToggle"
 
 export function SheetNav() {
   return (
@@ -26,7 +27,7 @@ export function SheetNav() {
         <SheetHeader>
           <SheetTitle>Menu Nawigacyjne</SheetTitle>
         </SheetHeader>
-        <div className='flex flex-col items-start gap-4 text-xl italic font-semibold px-2'>
+        <div className='flex flex-col items-start gap-4 text-xl italic font-semibold p-4'>
           <Link
             href='/products'
             className='hover:underline hover:text-primary transition-all duration-300'
@@ -57,6 +58,7 @@ export function SheetNav() {
              0
             </span>
           </Link>
+          <ModeToggle />
           
         </div>
         <SheetFooter>

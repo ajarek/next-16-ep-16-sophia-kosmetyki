@@ -3,6 +3,7 @@ import Link from "next/link"
 import { SheetNav } from "./SheetNav"
 
 import { ShoppingCart } from "lucide-react"
+import { ModeToggle } from "./ModeToggle"
 
 
 const Navbar = () => {
@@ -37,7 +38,7 @@ const Navbar = () => {
            0
           </span>
         </Link>
-        
+        <ModeToggle />
       </div>
       <SheetNav />
     </nav>
