@@ -1,5 +1,15 @@
 import products from "@/data/products.json";
 import Image from "next/image";
+import {
+  Card,
+  CardAction,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
+import { Button } from "@/components/ui/button";
 
 const Products = ({label, description}: {label: string, description: string}) => {
   return (
@@ -8,15 +18,22 @@ const Products = ({label, description}: {label: string, description: string}) =>
         <p className="text-lg">{description}</p>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {products.slice(0, 4).map((product) => (
-            <div key={product.id} className="border-2 shadow-2xl p-4 rounded-lg ">
-                <div className="relative w-full h-64 overflow-hidden">
-                    <Image src={product.image} alt={product.name} width={200} height={200} className="w-full h-auto object-cover hover:scale-110 transition-all duration-500"/>
-                </div>
-                <h2 className="text-xl font-bold">{product.name}</h2>
-                <p className="text-lg">{product.price}</p>
-                <p className="text-lg">{product.description}</p>
-                <button className="bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary/80 transition-all duration-300">Dodaj do koszyka</button>
-            </div>
+            <Card key={product.id} className="flex flex-col justify-between">
+                <CardHeader>
+                      <div className="relative w-full h-64 overflow-hidden">
+                        <Image src={product.image} alt={product.name} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="w-full h-auto object-cover hover:scale-110 transition-all duration-500"/>
+                    </div>
+                   
+                </CardHeader>
+                <CardContent>
+                    <CardTitle>{product.name}</CardTitle>
+                    <CardDescription>{product.description}</CardDescription>
+                    <p className="text-lg">{product.price}</p>
+                </CardContent>
+                <CardFooter>
+                    <Button className="cursor-pointer">Dodaj do koszyka</Button>
+                </CardFooter>
+            </Card>
         ))}
     </div>
     </section>

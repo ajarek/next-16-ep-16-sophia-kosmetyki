@@ -6,7 +6,7 @@ import Link from "next/link"
 
 const Header = () => {
   return (
-    <div className='relative h-186 w-full overflow-hidden'>
+    <div className='relative h-140 w-full overflow-hidden'>
       <Image
         src='/images/hero.avif'
         alt='Logo'
@@ -37,7 +37,7 @@ const Header = () => {
          Zabiegi pielęgnacyjne dostosowane do indywidualnych potrzeb, zapewniające najlepsze możliwe rezultaty.
         </p>
         <Link href='/products'>
-          <Button className='h-16 px-8 text-xl'>
+          <Button className='h-16 px-8 text-xl cursor-pointer'>
             Poproś o bezpłatną konsultację
           </Button>
         </Link>

@@ -26,7 +26,7 @@ export function SheetNav() {
         <SheetHeader>
           <SheetTitle>Menu Nawigacyjne</SheetTitle>
         </SheetHeader>
-        <div className='flex flex-col items-start gap-4 text-xl  font-semibold px-2'>
+        <div className='flex flex-col items-start gap-4 text-xl italic font-semibold px-2'>
           <Link
             href='/products'
             className='hover:underline hover:text-primary transition-all duration-300'

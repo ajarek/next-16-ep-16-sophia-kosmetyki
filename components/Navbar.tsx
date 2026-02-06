@@ -18,7 +18,7 @@ const Navbar = () => {
         />
         <h1 className='text-2xl font-bold font-serif italic '>Sophia Kosmetyki</h1>
       </Link>
-      <div className='w-1/2 flex items-center justify-between gap-4 text-xl font-semibold max-lg:hidden '>
+      <div className='w-1/2 flex items-center justify-between gap-4 text-xl italic font-semibold max-lg:hidden '>
         <Link href='/products' className='w-full'>
           Produkty
         </Link>
