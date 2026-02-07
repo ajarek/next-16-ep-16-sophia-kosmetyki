@@ -10,7 +10,7 @@ return (
     <main className="min-h-screen flex flex-col items-center justify-center">
         < Header />
         <AdvertisingPanel />
-        <Products label="Przeglądaj nasze najnowsze produkty" description="Uzupełnij swoją pielęgnację o słońce i pielęgnację ciała." />
+        <Products label="Przeglądaj nasze najnowsze produkty" description="Uzupełnij swoją pielęgnację o słońce i pielęgnację ciała." number={4} />
        <Testimonial />
        <Consultations />
     </main>

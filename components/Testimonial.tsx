@@ -30,17 +30,17 @@ const testimonials = [
 
 const Testimonial = () => {
   return (
-    <div className='grid grid-cols-1 md:grid-cols-3 gap-8 items-center p-8'>
-      <div className='flex justify-center  '>
+    <div className=' grid grid-cols-1 md:grid-cols-3 gap-16 items-center p-4 lg:px-12 '>
+      <div className='flex justify-center  rounded-xl  '>
         <Image
           src='/images/testimonial-1.webp'
           alt='Testimonial 1'
           width={280}
           height={280}
-          className='rounded-xl w-full max-w-[280px] h-auto object-cover hover:scale-105 transition-all duration-500 shadow-lg'
+          className='rounded-xl w-full h-auto object-cover hover:scale-105 transition-all duration-500 shadow-lg'
         />
       </div>
-      <div className="flex flex-col gap-2">
+      <div className='w-full flex flex-col gap-2'>
         <h2 className='text-2xl font-bold mb-4'>
           Posłuchaj, co nasi zadowoleni klienci mają do powiedzenia na temat
           swoich doświadczeń.
@@ -50,20 +50,21 @@ const Testimonial = () => {
           Przeczytaj szczere recenzje, które odzwierciedlają nasze zaangażowanie
           na rzecz zadowolenia klienta i opieki nad nim.
         </p>
-        <div className="grid grid-cols-[1fr_18fr] ">
-            <div className="pt-1">
-
-          <Image src='/google-icon.svg' alt='Google' width={20} height={20} />
-            </div>
+        <div className='grid grid-cols-[1fr_18fr] '>
+          <div className='pt-1'>
+            <Image src='/google-icon.svg' alt='Google' width={20} height={20} />
+          </div>
 
           <div className='flex flex-col gap-1'>
-            <span className="text-gray-600">Recenzje Google*</span>
-            <span className="text-xl font-bold text-yellow-500">5.0 ★★★★★</span>
-            <span className="text-gray-600">Na podstawie 104 opinii w serwisie Google.</span>
+            <span className='text-gray-600'>Recenzje Google*</span>
+            <span className='text-xl font-bold text-yellow-500'>5.0 ★★★★★</span>
+            <span className='text-gray-600'>
+              Na podstawie 104 opinii w serwisie Google.
+            </span>
           </div>
         </div>
       </div>
-      <div className='flex justify-center'>
+      <div className='flex justify-center '>
         <Carousel
           orientation='vertical'
           opts={{
@@ -75,7 +76,7 @@ const Testimonial = () => {
               delay: 3000,
             }),
           ]}
-          className='w-full max-w-xs relative'
+          className='w-full  relative'
         >
           <CarouselContent className='-mt-1 h-[270px]'>
             {testimonials.map((testimonial, index) => (
