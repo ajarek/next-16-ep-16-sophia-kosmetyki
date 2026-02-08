@@ -4,6 +4,7 @@ import { SheetNav } from "./SheetNav"
 
 import { ShoppingCart } from "lucide-react"
 import { ModeToggle } from "./ModeToggle"
+import LengthCart from "./LengthCart"
 
 
 const Navbar = () => {
@@ -35,7 +36,7 @@ const Navbar = () => {
         <Link href='/cart' className='relative flex items-center justify-center'>
           <ShoppingCart className=' w-6 h-6' />
           <span className='absolute bottom-3 left-4 w-6 h-6 border-2 border-primary rounded-full  flex items-center justify-center '>
-           0
+           <LengthCart/>
           </span>
         </Link>
         <ModeToggle />
