@@ -71,7 +71,7 @@ const About = () => {
             profesjonalne zabiegi pielęgnacyjne, które przynoszą realne
             rezultaty. To, co zaczęło się jako mała klinika, przekształciło się
             w zaufane miejsce oferujące kompleksowe rozwiązania w zakresie
-            pielęgnacji skóry. Nasza założycielka, dr Sarah Mitchell, dostrzegła
+            pielęgnacji skóry. Nasza założycielka, Dr. Anna Kowalska, dostrzegła
             potrzebę spersonalizowanych zabiegów pielęgnacyjnych, które
             odpowiadają na indywidualne problemy skóry, a nie oferują...
             Wierzymy, że zdrowa skóra jest podstawą pewności siebie i staramy

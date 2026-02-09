@@ -152,7 +152,7 @@ const Calendar = () => {
 
   return (
     <div className='flex justify-center items-center w-full p-4'>
-      <div className='w-full max-w-[400px] bg-card p-6 rounded-3xl shadow-sm border border-border/50'>
+      <div className='w-full max-w-[800px] bg-card p-6 rounded-3xl shadow-sm border border-border/50'>
         {view === "calendar" ? (
           // WIDOK KALENDARZA
           <div className='space-y-6 animate-in fade-in slide-in-from-left-4 duration-300'>
@@ -243,9 +243,9 @@ const Calendar = () => {
             </div>
           </div>
         ) : view === "time" ? (
-          // TIME VIEW
+          // WIDOK CZASU
           <div className='space-y-6 animate-in fade-in slide-in-from-right-4 duration-300'>
-            {/* Header */}
+            {/* Nagłówek */}
             <div className='flex items-center justify-between pb-2 border-b border-border/40'>
               <div className='flex items-center gap-3'>
                 <Button

@@ -14,11 +14,12 @@ import {
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { Minus, Plus } from "lucide-react";
-import router from "next/router";
+import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 
 const Products = ({label, description, number=4}: {label: string, description: string, number?: number}) => {
 
+const router = useRouter()
 const { addItemToCart, items } = useCartStore()
  const [quantities, setQuantities] = useState<{ [key: number]: number }>({})
   const getQuantity = (id: number) => quantities[id] || 1
