@@ -1,0 +1,156 @@
+[
+    {
+        "id": 1,
+        "title": "Europejski zabieg na twarz",
+        "price": "580",
+        "description": "Profesjonalna sesja zabiegów na twarz z użyciem szminki i kremu regenerującego już dziś",
+        "category": "Zabiegi na twarz"
+    },
+    {
+        "id": 2,
+        "title": "Głęboko oczyszczający zabieg na twarz",
+        "price": "480",
+        "description": "Dokładne oczyszczenie i złuszczanie w celu usunięcia zanieczyszczeń skóry.",
+        "category": "Zabiegi na twarz"
+    },
+    {
+        "id": 3,
+        "title": "Zabieg przeciwstarzeniowy na twarz",
+        "price": "640",
+        "description": "Sięgnij po specjalistyczne produkty, aby uporać się z drobnymi liniami i zmarszczkami.",
+        "category": "Zabiegi na twarz"
+    },
+    {
+        "id": 4,
+        "title": "Nawilżający zabieg na twarz",
+        "price": "520",
+        "description": "Zwiększ poziom nawilżenia suchej skóry stosując maseczki nawilżające.",
+        "category": "Zabiegi na twarz"
+    },
+    {
+        "id": 5,
+        "title": "Rozjaśniający zabieg na twarz",
+        "price": "600",
+        "description": "Odśwież matową skórę za pomocą rozjaśniających serum i peelingów.",
+        "category": "Zabiegi na twarz"
+    },
+    {
+        "id": 6,
+        "title": "Zabieg na trądzik na twarz",
+        "price": "560",
+        "description": "Skoncentruj się na walce z niedoskonałościami dzięki składnikom ukierunkowanym na walkę z trądzikiem.",
+        "category": "Zabiegi na twarz"
+    },
+    {
+        "id": 7,
+        "title": "Zabieg na twarz dla skóry wrażliwej",
+        "price": "500",
+        "description": "Delikatny zabieg przeznaczony do pielęgnacji skóry skłonnej do podrażnień.",
+        "category": "Zabiegi na twarz"
+    },
+    {
+        "id": 8,
+        "title": "Luksusowy zabieg spa na twarz",
+        "price": "840",
+        "description": "Rozkoszuj się bogatym, relaksującym zabiegiem na twarz przy użyciu produktów premium.",
+        "category": "Zabiegi na twarz"
+    },
+    {
+        "id": 9,
+        "title": "Szwedzki masaż ciała",
+        "price": "440",
+        "description": "Relaksacyjny masaż całego ciała, wykonywany długimi, płynnymi ruchami, które łagodzą napięcie.",
+        "category": "Zabiegi na ciało"
+    },
+    {
+        "id": 10,
+        "title": "Masaż tkanek głębokich",
+        "price": "480",
+        "description": "Intensywny masaż oddziałujący na głębokie warstwy mięśni w celu złagodzenia przewlekłego bólu.",
+        "category": "Zabiegi na ciało"
+    },
+    {
+        "id": 11,
+        "title": "Terapia gorącymi kamieniami",
+        "price": "620",
+        "description": "Profesjonalna seMasaż leczniczy z użyciem rozgrzanych kamieni, który pozwala pozbyć się stresu i napięcia.",
+        "category": "Zabiegi na ciało"
+    },
+    {
+        "id": 12,
+        "title": "Peeling i polerowanie ciała",
+        "price": "500",
+        "description": "Zabieg złuszczający usuwający martwe komórki naskórka i odsłaniający gładką, promienną skórę.",
+        "category": "Zabiegi na ciało"
+    },
+    {
+        "id": 13,
+        "title": "Sesja aromaterapii",
+        "price": "380",
+        "description": "Spersonalizowana terapia olejkami eterycznymi wspomagająca relaks i równowagę.",
+        "category": "Wellness i spa"
+    },
+    {
+        "id": 14,
+        "title": "Leczenie refleksologii",
+        "price": "340",
+        "description": "Masaż punktów nacisku skupiający się na stopach, który stymuluje proces gojenia całego ciała.",
+        "category": "Wellness i spa"
+    },
+    {
+        "id": 15,
+        "title": "Zajęcia z medytacji i uważności",
+        "price": "260",
+        "description": "Prowadzona sesja mająca na celu redukcję stresu i poprawę jasności umysłu.",
+        "category": "Wellness i spa"
+    },
+    {
+        "id": 16,
+        "title": "Mikrodermabrazja",
+        "price": "780",
+        "description": "Zaawansowany peeling poprawiający teksturę skóry i redukujący drobne zmarszczki.",
+        "category": "Medyczne Spa"
+    },
+    {
+        "id": 17,
+        "title": "Zabieg peelingu chemicznego",
+        "price": "560",
+        "description": "Profesjonalny peeling odnawiający skórę i redukujący przebarwienia.",
+        "category": "Medyczne Spa"
+    },
+    {
+        "id": 18,
+        "title": "Terapia światłem LED",
+        "price": "560",
+        "description": "Nieinwazyjne leczenie z wykorzystaniem fal świetlnych w celu odmłodzenia skóry.",
+        "category": "Medyczne Spa"
+    },
+    {
+        "id": 19,
+        "title": "Manicure klasyczny",
+        "price": "360",
+        "description": "Profesjonalne nadawanie kształtu paznokciom, pielęgnacja skórek i malowanie.",
+        "category": "Pielęgnacja paznokci"
+    },
+    {
+        "id": 20,
+        "title": "Luksusowy pedicure",
+        "price": "240",
+        "description": "Luksusowy zabieg na stopy obejmujący peeling, masaż i polerowanie.",
+        "category": "Pielęgnacja paznokci"
+    },
+    {
+        "id": 21,
+        "title": "Projektowanie zdobienia paznokci",
+        "price": "100",
+        "description": "Kreatywne wzory i ozdoby na paznokcie.",
+        "category": "Pielęgnacja paznokci"
+    },
+    {
+        "id": 22,
+        "title": "Manicure francuski",
+        "price": "220",
+        "description": "Klasyczny, elegancki styl paznokci.",
+        "category": "Pielęgnacja paznokci"
+    }
+]
