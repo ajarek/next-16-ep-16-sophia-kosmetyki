@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import HeaderTitle from "@/components/HeaderTitle"
 
 const servicesData = [
     {
@@ -66,60 +67,7 @@ const servicesData = [
 const Services = () => {
   return (
     <div className='w-full min-h-screen flex flex-col items-start justify-center gap-16 pt-32  px-4 lg:px-12 '>
-      <div className='w-full grid grid-cols-1 sm:grid-cols-[1fr_3fr_1fr] gap-4 items-center'>
-        <div
-          className='flex justify-center rounded-2xl overflow-hidden py-2'
-          style={{
-            background: "#ff2056",
-            backgroundImage: `
-        linear-gradient(to right, rgba(255,255,255,0.06) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(255,255,255,0.06) 1px, transparent 1px),
-        radial-gradient(circle, rgba(255,255,255,0.6) 2px, transparent 2px)
-      `,
-            backgroundSize: "20px 20px, 20px 20px, 20px 20px",
-            backgroundPosition: "0 0, 0 0, 0 0",
-          }}
-        >
-          <Image
-            src='/images/services-1.webp'
-            alt='Services'
-            width={200}
-            height={200}
-            className='bg-gray-400 rounded-full'
-          />
-        </div>
-        <div className='flex flex-col items-center gap-6'>
-          <span className='text-center text-sm font-bold text-gray-500'>
-            SKONTAKTUJ SIĘ Z NAMI
-          </span>
-          <h1 className='text-5xl font-bold text-center'>Nasze Usługi</h1>
-          <p className='text-center text-xl'>
-            Odkryj naszą kompleksową ofertę profesjonalnych zabiegów
-            pielęgnacyjnych, <br /> opracowanych z myślą o wszystkich potrzebach
-            Twojej skóry i spełnieniu Twoich celów.
-          </p>
-        </div>
-        <div
-          className='flex justify-center rounded-2xl overflow-hidden py-2'
-          style={{
-            background: "#ff2056",
-            backgroundImage: `
-            linear-gradient(to right, rgba(255,255,255,0.06) 1px, transparent 1px),
-            linear-gradient(to bottom, rgba(255,255,255,0.06) 1px, transparent 1px),
-            radial-gradient(circle, rgba(255,255,255,0.6) 2px, transparent 2px)
-            `,
-            backgroundSize: "20px 20px, 20px 20px, 20px 20px",
-            backgroundPosition: "0 0, 0 0, 0 0",
-          }}
-        >
-          <Image
-            src='/images/services-2.webp'
-            alt='Services'
-            width={200}
-            height={200}
-          />
-        </div>
-      </div>
+      <HeaderTitle introduction='SKONTAKTUJ SIĘ Z NAMI' title='Nasze Usługi' text='Odkryj naszą kompleksową ofertę profesjonalnych zabiegów pielęgnacyjnych, opracowanych z myślą o wszystkich potrzebach Twojej skóry i spełnieniu Twoich celów.' />
 
       <div className='w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 items-center'>
         {servicesData.map((service) => (

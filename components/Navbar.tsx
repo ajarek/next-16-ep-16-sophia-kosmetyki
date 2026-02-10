@@ -27,6 +27,9 @@ const Navbar = () => {
         <Link href='/services' className='w-full'>
           Usługi
         </Link>
+        <Link href='/pricing' className='w-full'>
+          Cennik
+        </Link>
         <Link href='/about' className='w-full'>
           O nas
         </Link>

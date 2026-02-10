@@ -1,38 +1,36 @@
 import {
   Card,
-  CardAction,
-  CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
-import Image from "next/image"
+import { BrickWallShield, ShieldCheck, Truck, Undo2 } from "lucide-react"
+
 const AdvertisingPanel = () => {
   const data = [
     {
       id: 1,
       title: "Zwroty i wymiany",
       description: "Bezproblemowe zwroty w ciągu 15 dni",
-      image: "/icon-5.svg",
+      image: <Undo2 className='w-12 h-12' />,
     },
     {
       id: 2,
-      title: "Zwroty i wymiany",
-      description: "Bezproblemowe zwroty w ciągu 15 dni",
-      image: "/icon-6.svg",
+      title: "Darmowa szybka wysyłka",
+      description: "Dla zamówień powyżej 500 zł",
+      image: <Truck className='w-12 h-12' />,
     },
     {
       id: 3,
-      title: "Zwroty i wymiany",
-      description: "Bezproblemowe zwroty w ciągu 15 dni",
-      image: "/icon-2.svg",
+      title: "Produkty wysokiej jakości",
+      description: "Marki kosmetyków premium",
+      image: <ShieldCheck className='w-12 h-12' />,
     },
     {
       id: 4,
-      title: "Zwroty i wymiany",
-      description: "Bezproblemowe zwroty w ciągu 15 dni",
-      image: "/icon-3.svg",
+      title: "Bezpieczne płatności",
+      description: "Zaufane platformy płatnicze",
+      image: <BrickWallShield className='w-12 h-12' />,
     },
   ]
   return (
@@ -44,17 +42,11 @@ const AdvertisingPanel = () => {
             className={` h-24 flex items-center  gap-4 py-4 `}
           >
             <CardHeader className='w-full flex items-center justify-start   gap-4'>
-              <Image
-                src={item.image}
-                alt='Logo'
-                width={50}
-                height={50}
-                className='rounded-full'
-              />
+              {item.image}
               <div className='flex flex-col gap-2'>
-                <CardTitle>Zwroty i wymiany</CardTitle>
+                <CardTitle>{item.title}</CardTitle>
                 <CardDescription>
-                  Bezproblemowe zwroty w ciągu 15 dni
+                  {item.description}
                 </CardDescription>
               </div>
             </CardHeader>

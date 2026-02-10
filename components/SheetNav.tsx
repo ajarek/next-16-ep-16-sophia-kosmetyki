@@ -42,6 +42,12 @@ export function SheetNav() {
             Usługi
           </Link>
           <Link
+            href='/pricing'
+            className='hover:underline hover:text-primary transition-all duration-300'
+          >
+            Cennik
+          </Link>
+          <Link
             href='/about'
             className='hover:underline hover:text-primary transition-all duration-300'
           >

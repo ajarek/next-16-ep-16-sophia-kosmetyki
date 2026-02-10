@@ -2,6 +2,9 @@ import AdvertisingPanel from "@/components/AdvertisingPanel"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import Image from "next/image"
 import { BotMessageSquare, Mail, Phone, MapPin } from "lucide-react"
+import FormMessage from "@/components/FormMessage"
+import ContactInfo from "@/components/ContactInfo"
+import HeaderTitle from "@/components/HeaderTitle"
 const data = [
   {
     id: 1,
@@ -40,61 +43,8 @@ const data = [
 const Contact = () => {
   return (
     <div className='w-full min-h-screen flex flex-col items-start justify-start pt-32  px-4 lg:px-12 '>
-      <div className='w-full grid grid-cols-1 sm:grid-cols-[1fr_3fr_1fr] gap-4 items-center mb-16'>
-        <div
-          className='flex justify-center rounded-2xl overflow-hidden py-2'
-          style={{
-            background: "#ff2056",
-            backgroundImage: `
-                   linear-gradient(to right, rgba(255,255,255,0.06) 1px, transparent 1px),
-                   linear-gradient(to bottom, rgba(255,255,255,0.06) 1px, transparent 1px),
-                   radial-gradient(circle, rgba(255,255,255,0.6) 2px, transparent 2px)
-                 `,
-            backgroundSize: "20px 20px, 20px 20px, 20px 20px",
-            backgroundPosition: "0 0, 0 0, 0 0",
-          }}
-        >
-          <Image
-            src='/images/services-1.webp'
-            alt='Services'
-            width={200}
-            height={200}
-            className='bg-gray-400 rounded-full'
-          />
-        </div>
-        <div className='flex flex-col items-center gap-6'>
-          <span className='text-center text-sm font-bold text-gray-500'>
-            SKONTAKTUJ SIĘ Z NAMI
-          </span>
-          <h1 className='text-5xl font-bold text-center'>
-           Skontaktuj się z nami
-          </h1>
-          <p className='text-center text-xl'>
-            Jesteśmy tutaj, aby odpowiedzieć na Twoje pytania, pomóc Ci umówić się na wizytę i wspierać Cię na każdym etapie pielęgnacji skóry.
-          </p>
-        </div>
-        <div
-          className='flex justify-center rounded-2xl overflow-hidden py-2'
-          style={{
-            background: "#ff2056",
-            backgroundImage: `
-                       linear-gradient(to right, rgba(255,255,255,0.06) 1px, transparent 1px),
-                       linear-gradient(to bottom, rgba(255,255,255,0.06) 1px, transparent 1px),
-                       radial-gradient(circle, rgba(255,255,255,0.6) 2px, transparent 2px)
-                       `,
-            backgroundSize: "20px 20px, 20px 20px, 20px 20px",
-            backgroundPosition: "0 0, 0 0, 0 0",
-          }}
-        >
-          <Image
-            src='/images/services-2.webp'
-            alt='Services'
-            width={200}
-            height={200}
-          />
-        </div>
-      </div>
-      <div className='w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 bg-[#ff2056] p-4'>
+      <HeaderTitle introduction='SKONTAKTUJ SIĘ Z NAMI' title='Skontaktuj się z nami' text='Jesteśmy tutaj, aby odpowiedzieć na Twoje pytania, pomóc Ci umówić się na wizytę i wspierać Cię na każdym etapie pielęgnacji skóry.' />
+      <div className='w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 bg-[#ff2056] p-4 mt-16'>
         {data.map((item) => (
           <Card
             key={item.id}
@@ -131,7 +81,11 @@ const Contact = () => {
             backgroundPosition: "0 0, 0 0, 0 0",
           }}
         />
-        {/* Your Content/Components */}
+       
+      </div>
+      <div className="w-full  grid grid-cols-1 md:grid-cols-2 gap-4 p-4 mt-8">
+        <FormMessage />
+        <ContactInfo />
       </div>
     </div>
   )
