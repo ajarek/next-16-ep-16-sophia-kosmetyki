@@ -35,9 +35,11 @@ const ServiceCategory = () => {
           .map((service) => (
             <Card key={service.id} className='flex flex-col gap-2'>
               <CardHeader>
-                <div className="flex items-center justify-between">
-                    <CardTitle>{service.title}</CardTitle>
-                    <p className="text-xl font-semibold text-primary">{Number(service.price).toFixed(2)} PLN</p>
+                <div className='flex items-center justify-between'>
+                  <CardTitle>{service.title}</CardTitle>
+                  <p className='text-xl font-semibold text-primary'>
+                    {Number(service.price).toFixed(2)} PLN
+                  </p>
                 </div>
               </CardHeader>
               <CardContent>

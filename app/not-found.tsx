@@ -11,7 +11,8 @@ export default function NotFound() {
 
         <p className='max-w-lg  text-lg px-4'>
           Strona, której próbujesz się dostać, nie jest dostępna lub adres jest
-          niepoprawny. Spróbuj przejść na stronę główną lub sprawdź poprawność adresu URL.
+          niepoprawny. Spróbuj przejść na stronę główną lub sprawdź poprawność
+          adresu URL.
         </p>
 
         <div className='flex gap-3'>

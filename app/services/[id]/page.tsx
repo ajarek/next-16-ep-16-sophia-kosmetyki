@@ -1,7 +1,11 @@
 import Calendar from '@/components/Calendar'
 import Image from 'next/image'
+import { servicesData } from "@/data/servicesData"
 
-const BookingDetails = () => {
+const BookingDetails = async ({params}: {params: {id: string}}) => {
+  const {id} = await params
+  const service = servicesData.find((service) => service.id === Number(id))
+  
   return (
      <div className='w-full min-h-screen flex flex-col items-start justify-start gap-16 pt-32  px-4 lg:px-12 '>
           <div className='w-full grid grid-cols-1 sm:grid-cols-[1fr_3fr_1fr] gap-4 items-center'>
@@ -36,6 +40,9 @@ const BookingDetails = () => {
               <p className='text-center text-xl'>
                Umów się na konsultację, aby uzyskać spersonalizowaną pielęgnację skóry, zaprojektowaną z myślą o osiągnięciu Twoich wyjątkowych celów.
               </p>
+              <p className='text-center text-xl'>
+                wybrany pakiet:  <span className='font-semibold'>{service?.title||""}</span>
+              </p>
             </div>
             <div
               className='flex justify-center rounded-2xl overflow-hidden py-2'
@@ -58,7 +65,7 @@ const BookingDetails = () => {
               />
             </div>
           </div>
-          <Calendar />
+          <Calendar OrderedPackage={service?.title||""} />
         </div>
   )
 }

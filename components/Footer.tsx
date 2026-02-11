@@ -7,7 +7,6 @@ import {
   type LucideIcon,
 } from "lucide-react"
 
-// Helper component for social icons
 const SocialIcon = ({
   href,
   icon: Icon,
@@ -27,7 +26,6 @@ const Footer = () => {
   return (
     <footer className='bg-background text-primary py-16 px-4 md:px-16'>
       <div className='max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12'>
-        {/* Column 1: SZYBKIE LINKI */}
         <div className='space-y-6'>
           <h3 className='text-lg font-bold font-serif uppercase tracking-wider text-primary'>
             Szybkie Linki
@@ -54,7 +52,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Column 2: USŁUGI PROFESJONALNE */}
         <div className='space-y-6'>
           <h3 className='text-lg font-bold font-serif uppercase tracking-wider text-primary'>
             Usługi Profesjonalne
@@ -82,7 +79,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Column 3: ROZWIĄZANIA BIZNESOWE */}
         <div className='space-y-6'>
           <h3 className='text-lg font-bold font-serif uppercase tracking-wider text-primary'>
             Rozwiązania Biznesowe
@@ -110,7 +106,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Column 4: POZOSTAŃ W KONTAKCIE */}
         <div className='space-y-6'>
           <h3 className='text-lg font-bold font-serif uppercase tracking-wider text-primary'>
             Pozostań w Kontakcie
@@ -119,7 +114,6 @@ const Footer = () => {
           <div className='flex gap-4 mb-6'>
             <SocialIcon href='#' icon={Facebook} />
             <SocialIcon href='#' icon={Instagram} />
-            {/* TikTok icon is not standard in generic lucide import sometimes */}
           </div>
 
           <div className='space-y-4'>
@@ -142,7 +136,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Copyright/Bottom Section */}
       <div className='max-w-7xl mx-auto mt-16 pt-8 border-t border-[#3E2D23] text-center text-sm opacity-60'>
         <p>
           &copy; {new Date().getFullYear()} Sophia Kosmetyki. Wszelkie prawa

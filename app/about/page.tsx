@@ -1,5 +1,4 @@
 import Image from "next/image"
-import React from "react"
 import Mission from "../../components/Mission"
 import Experts from "@/components/Experts"
 import HeaderTitle from "@/components/HeaderTitle"
@@ -7,7 +6,11 @@ import HeaderTitle from "@/components/HeaderTitle"
 const About = () => {
   return (
     <div className='w-full min-h-screen flex flex-col items-start justify-start gap-16 pt-32  px-4 lg:px-12 '>
-      <HeaderTitle introduction='O NAS' title='Twój zaufany partner' text='Pomagamy Ci osiągnąć zdrową, promienną skórę dzięki spersonalizowanym zabiegom i profesjonalnej opiece. Naszą misją jest podkreślenie Twojego naturalnego piękna, jednocześnie stawiając na pierwszym miejscu Twój komfort i bezpieczeństwo.' />
+      <HeaderTitle
+        introduction='O NAS'
+        title='Twój zaufany partner'
+        text='Pomagamy Ci osiągnąć zdrową, promienną skórę dzięki spersonalizowanym zabiegom i profesjonalnej opiece. Naszą misją jest podkreślenie Twojego naturalnego piękna, jednocześnie stawiając na pierwszym miejscu Twój komfort i bezpieczeństwo.'
+      />
       <div className='w-full grid grid-cols-1 sm:grid-cols-2 gap-8 items-center'>
         <div className='flex flex-col items-center gap-6'>
           <h1 className='text-5xl font-bold text-center'>Nasza historia</h1>
@@ -37,7 +40,7 @@ const About = () => {
 
         <Mission />
       </div>
-        <Experts />
+      <Experts />
     </div>
   )
 }

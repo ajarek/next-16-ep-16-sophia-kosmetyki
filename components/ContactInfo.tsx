@@ -55,9 +55,7 @@ const ContactInfo = () => {
       <section>
         <div className='flex items-start gap-4 mb-6'>
           <Clock className='w-7 h-7 mt-1 ' strokeWidth={1.5} />
-          <h2 className='text-3xl font-serif font-bold '>
-            Godziny pracy
-          </h2>
+          <h2 className='text-3xl font-serif font-bold '>Godziny pracy</h2>
         </div>
 
         <div className='space-y-4 pl-0 md:pl-11'>
@@ -76,10 +74,7 @@ const ContactInfo = () => {
       {/* Sekcja 2: FAQ */}
       <section>
         <div className='flex items-start gap-4 mb-4'>
-          <HelpCircle
-            className='w-7 h-7 mt-1 '
-            strokeWidth={1.5}
-          />
+          <HelpCircle className='w-7 h-7 mt-1 ' strokeWidth={1.5} />
           <h2 className='text-3xl font-serif font-bold '>
             Często zadawane pytania
           </h2>
@@ -102,13 +97,8 @@ const ContactInfo = () => {
       {/* Sekcja 3: Obserwuj nas */}
       <section>
         <div className='flex items-start gap-4 mb-4'>
-          <Megaphone
-            className='w-7 h-7 mt-1 '
-            strokeWidth={1.5}
-          />
-          <h2 className='text-3xl font-serif font-bold '>
-            Obserwuj nas
-          </h2>
+          <Megaphone className='w-7 h-7 mt-1 ' strokeWidth={1.5} />
+          <h2 className='text-3xl font-serif font-bold '>Obserwuj nas</h2>
         </div>
         <div className='pl-0 md:pl-11 max-w-md'>
           <p className='mb-8  leading-relaxed'>

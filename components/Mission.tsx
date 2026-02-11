@@ -1,5 +1,4 @@
 import { Heart, ShieldCheck, Sparkles, Users } from "lucide-react"
-import React from "react"
 
 const missionData = [
   {
@@ -48,7 +47,6 @@ const Mission = () => {
             className='flex flex-col items-center text-center gap-4 p-4'
           >
             <div className='p-4 rounded-full border border-border bg-card shadow-sm relative'>
-              {/* Simple icon container as per minimal style in screenshot */}
               {item.icon}
             </div>
             <h3 className='text-xl font-bold'>{item.title}</h3>

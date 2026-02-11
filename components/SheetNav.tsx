@@ -62,11 +62,10 @@ export function SheetNav() {
           <Link href='/cart' className='relative flex items-center gap-2'>
             <ShoppingCart className=' w-6 h-6' />{" "}
             <span className='absolute bottom-3 left-4 w-6 h-6 rounded-full border-2 border-primary flex items-center justify-center '>
-             <LengthCart/>
+              <LengthCart />
             </span>
           </Link>
           <ModeToggle />
-          
         </div>
         <SheetFooter>
           <SheetClose asChild>

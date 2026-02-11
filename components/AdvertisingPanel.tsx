@@ -4,35 +4,9 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
-import { BrickWallShield, ShieldCheck, Truck, Undo2 } from "lucide-react"
+import { data } from "@/data/advertisingPanelData"
 
 const AdvertisingPanel = () => {
-  const data = [
-    {
-      id: 1,
-      title: "Zwroty i wymiany",
-      description: "Bezproblemowe zwroty w ciągu 15 dni",
-      image: <Undo2 className='w-12 h-12' />,
-    },
-    {
-      id: 2,
-      title: "Darmowa szybka wysyłka",
-      description: "Dla zamówień powyżej 500 zł",
-      image: <Truck className='w-12 h-12' />,
-    },
-    {
-      id: 3,
-      title: "Produkty wysokiej jakości",
-      description: "Marki kosmetyków premium",
-      image: <ShieldCheck className='w-12 h-12' />,
-    },
-    {
-      id: 4,
-      title: "Bezpieczne płatności",
-      description: "Zaufane platformy płatnicze",
-      image: <BrickWallShield className='w-12 h-12' />,
-    },
-  ]
   return (
     <div className='w-full '>
       <div className='w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 bg-[#ff2056] p-4'>
@@ -45,9 +19,7 @@ const AdvertisingPanel = () => {
               {item.image}
               <div className='flex flex-col gap-2'>
                 <CardTitle>{item.title}</CardTitle>
-                <CardDescription>
-                  {item.description}
-                </CardDescription>
+                <CardDescription>{item.description}</CardDescription>
               </div>
             </CardHeader>
           </Card>

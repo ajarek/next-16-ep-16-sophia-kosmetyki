@@ -1,11 +1,9 @@
 import Image from "next/image"
 import Link from "next/link"
 import { SheetNav } from "./SheetNav"
-
 import { ShoppingCart } from "lucide-react"
 import { ModeToggle } from "./ModeToggle"
 import LengthCart from "./LengthCart"
-
 
 const Navbar = () => {
   return (
@@ -18,7 +16,9 @@ const Navbar = () => {
           height={50}
           className='rounded-full'
         />
-        <h1 className='text-2xl font-bold font-serif italic '>Sophia Kosmetyki</h1>
+        <h1 className='text-2xl font-bold font-serif italic '>
+          Sophia Kosmetyki
+        </h1>
       </Link>
       <div className='w-1/2 flex items-center justify-between gap-4 text-xl italic font-semibold max-lg:hidden '>
         <Link href='/products' className='w-full'>
@@ -36,10 +36,13 @@ const Navbar = () => {
         <Link href='/contact' className='w-full'>
           Kontakt
         </Link>
-        <Link href='/cart' className='relative flex items-center justify-center'>
+        <Link
+          href='/cart'
+          className='relative flex items-center justify-center'
+        >
           <ShoppingCart className=' w-6 h-6' />
           <span className='absolute bottom-3 left-4 w-6 h-6 border-2 border-primary rounded-full  flex items-center justify-center '>
-           <LengthCart/>
+            <LengthCart />
           </span>
         </Link>
         <ModeToggle />
